@@ -13,6 +13,7 @@ class CarRecommendation(BaseModel):
     year: Optional[int] = None
     price_range: Optional[str] = None
     reason: str
+    image_url: Optional[str] = None
 
 
 class ChatResponse(BaseModel):
